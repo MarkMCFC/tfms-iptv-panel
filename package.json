@@ -1,0 +1,14 @@
+{
+  "name": "tfms-iptv-panel",
+  "version": "1.0.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "pages:dev": "wrangler pages dev public --compatibility-date=2026-06-03",
+    "d1:init": "wrangler d1 execute tfms-iptv-panel-db --file=./migrations/0001_init.sql --remote"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}

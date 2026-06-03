@@ -1,0 +1,16 @@
+name = "tfms-iptv-panel"
+compatibility_date = "2026-06-03"
+pages_build_output_dir = "public"
+
+# After the one-click deploy/import, create or select these bindings in:
+# Cloudflare Dashboard -> Workers & Pages -> your Pages project -> Settings -> Bindings
+# Binding names must match the app code: DB and KV_CONNECTIONS.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tfms-iptv-panel-db"
+database_id = "111c61d1-a078-4561-b4fc-dafe45ece296"
+
+[[kv_namespaces]]
+binding = "KV_CONNECTIONS"
+id = "449a7ba22ad04763ae6f26630671fd42"
